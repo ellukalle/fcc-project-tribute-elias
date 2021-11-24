@@ -27,7 +27,7 @@ div > .prsoninform {
 
 
 
-body {
+#main {
 
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("img/tributebackground.jpg");
     background-repeat: no-repeat;
@@ -38,6 +38,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 200vh;
+    margin: auto;
     
 }
 
@@ -49,7 +50,7 @@ body {
 #image {
     display: block;
     height: auto;
-    margin: 40px 0 0 220px;
+    margin: 5% auto auto auto;
     border-radius: 25px;
     max-width: 500px;
     min-width: 500px;
@@ -58,7 +59,7 @@ body {
 #img-div {
     width: 1000px;
     height: 1000px;
-    margin-top: 100px;
+    margin: 10% auto;
     background: #FFFFFF;
     border: 2px solid #8a8a8a;
     box-sizing: border-box;
