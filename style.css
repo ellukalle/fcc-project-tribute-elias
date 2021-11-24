@@ -1,7 +1,13 @@
 div > h1 {
     font-weight: 400;
     font-size: 1.8rem;
+} 
+
+#title {
+    color: rgb(122, 122, 122);
+
 }
+
 
 div > .prsoninform {
     font-size: 0.8rem;
@@ -18,16 +24,7 @@ div > .prsoninform {
     font-size: 3%;
 }
 
-.rectangle2 {
-    width: 1000px;
-    height: 1000px;
-    margin-top: 100px;
-    background: #FFFFFF;
-    border: 2px solid #8a8a8a;
-    box-sizing: border-box;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-}
+
 
 
 body {
@@ -49,21 +46,32 @@ body {
     font-size: 1.8vh;
 }
 
-.picture-image {
-    height: 400px;
-    width: 500px;
+#image {
+    display: block;
+    height: auto;
     margin: 40px 0 0 220px;
     border-radius: 25px;
-
+    max-width: 500px;
+    min-width: 500px;
 }
 
+#img-div {
+    width: 1000px;
+    height: 1000px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border: 2px solid #8a8a8a;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
 
 
 div > hr{
     margin: 80px 5% 0 5%;
 }
 
-.picture-description {
+#img-caption {
     display: flex;
     margin: 20px auto 0px auto;
     justify-content: center;
@@ -82,8 +90,8 @@ div > hr{
     margin: 0 auto 0 auto;
 }
 
-.desc {
-    font-size: 1.3rem;
+#tribute-info {
+    font-size: 1.7rem;
     margin-left: 10%;
     margin-top: 55px;
 }
@@ -98,4 +106,10 @@ ul > li > h2{
     font-size: 0.4rem;
     color: rgb(185, 185, 185);
     margin-top: 5px;
+}
+
+#tribute-link {
+    font-size: 1.3rem;
+    margin-left: 10%;
+    margin-top: 55px;
 }
